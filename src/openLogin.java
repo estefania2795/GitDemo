@@ -17,8 +17,11 @@ public class openLogin {
 		driver.findElement(By.name("commit")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.linkText("Continuar")).click();
+		
 		m.getCheckMaintenance(driver);
 		return driver;
+		
+		
 	}
 	
 	
